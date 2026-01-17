@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "devDependencies": {
-    "nudeps": "file:../nudeps"
+    "nudeps": "latest"
   },
   "scripts": {
     "dependencies": "npx nudeps"
