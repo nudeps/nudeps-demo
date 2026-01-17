@@ -6,11 +6,11 @@
   "author": "Lea Verou",
   "type": "module",
   "main": "index.js",
-  "devDependencies": {
-    "nudeps": "latest"
-  },
   "scripts": {
     "dependencies": "npx nudeps"
+  },
+  "devDependencies": {
+    "nudeps": "latest"
   },
   "dependencies": {
     "@floating-ui/core": "^1.7.3",
