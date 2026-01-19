@@ -1,0 +1,19 @@
+{
+  "name": "nudeps-demo-floating-ui",
+  "version": "0.0.1",
+  "description": "A demo repository to showcase how nudeps works",
+  "license": "MIT",
+  "author": "Lea Verou",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dependencies": "npx nudeps"
+  },
+  "devDependencies": {
+    "nudeps": "latest"
+  },
+  "dependencies": {
+    "@floating-ui/core": "^1.7.3",
+    "@floating-ui/dom": "^0.5.4"
+  }
+}
