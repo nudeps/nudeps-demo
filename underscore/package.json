@@ -1,0 +1,19 @@
+{
+  "name": "nudeps-demo-lodash",
+  "version": "0.0.1",
+  "description": "A demo repository to showcase how nudeps works with lodash",
+  "license": "MIT",
+  "author": "Lea Verou",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dependencies": "npx nudeps"
+  },
+  "devDependencies": {
+    "nudeps": "latest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "underscore": "^1.13.7"
+  }
+}
