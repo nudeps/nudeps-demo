@@ -1,5 +1,6 @@
 import { require } from "cjs-browser-shim";
 
 const _ = require("lodash");
-const chunks = _.chunk(["a", "b", "c", "d"], 2);
-console.log(chunks[0][1]); // Output: "b"
+const chunks = _.chunk(["Hello", "from", "Lodash"], 2);
+
+document.body.textContent = chunks[1][0] + " works!";
