@@ -6,7 +6,7 @@ let map = {
 		"jquery/factory": "./client_modules/jquery@4.0.0/dist-module/jquery.factory.module.js",
 		"jquery/factory-slim": "./client_modules/jquery@4.0.0/dist-module/jquery.factory.slim.module.js",
 		"jquery/slim": "./client_modules/jquery@4.0.0/dist-module/jquery.slim.module.js",
-		"jquery1": "./client_modules/jquery1@1.12.4/dist/jquery.js"
+		"jquery1": "./client_modules/jquery@1.12.4/dist/jquery.js"
 	}
 };
 let cS = document.currentScript;
