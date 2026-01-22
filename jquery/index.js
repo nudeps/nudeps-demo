@@ -1,9 +1,9 @@
 import { require } from "cjs-browser-shim";
-import jquery4 from "jquery4";
+import jQuery from "jquery";
 
-const jquery1 = require("jquery1");
+const jQuery_1 = require("jquery1");
 
-const $legacy = jquery1.noConflict(true);
-const $ = jquery4.noConflict(true);
+const $legacy = jQuery_1.noConflict(true);
+const $ = jQuery.noConflict(true);
 
-$("#count").text($legacy("#demos > li").size());
+$("#count").text($legacy("#list > li").size());

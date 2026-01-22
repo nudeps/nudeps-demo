@@ -13,7 +13,7 @@
     "nudeps": "latest"
   },
   "dependencies": {
-    "jquery1": "npm:jquery@^1.12.4",
-    "jquery4": "npm:jquery@^4.0.0"
+    "jquery": "^4.0.0",
+    "jquery1": "npm:jquery@^1.12.4"
   }
 }
