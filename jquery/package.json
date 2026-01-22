@@ -1,0 +1,19 @@
+{
+  "name": "nudeps-demo-jquery",
+  "version": "0.0.1",
+  "description": "A demo repository to showcase how nudeps works with different versions of jQuery",
+  "license": "MIT",
+  "author": "Dmitry Sharabin",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dependencies": "npx nudeps"
+  },
+  "devDependencies": {
+    "nudeps": "latest"
+  },
+  "dependencies": {
+    "jquery": "^4.0.0",
+    "jquery1": "npm:jquery@^1.12.4"
+  }
+}
